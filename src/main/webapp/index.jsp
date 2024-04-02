@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<h1>Login to Sample Web Application</h1>
-		<p> <%@ include file="link.html" %> </p>
+		<p> <%@ include file="links.html" %> </p>
 		<p>
 			<%
 				for (int i=0; i<13; i++) {
