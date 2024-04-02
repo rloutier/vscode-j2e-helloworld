@@ -6,7 +6,15 @@
 	</head>
 	<body>
 		<h1>Login to Sample Web Application</h1>
-		<a href="login.html">Login</a>
-		<a href="logout">Logout</a>
+		<p> <%@ include file="link.html" %> </p>
+		<p>
+			<%
+				for (int i=0; i<13; i++) {
+					for (int j=0; j<=i; j++)
+						out.print("*");
+					out.print("<br>");
+				}
+			%>
+		</p>
 	</body>
 </html>
