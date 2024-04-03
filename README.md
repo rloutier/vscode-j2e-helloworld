@@ -9,8 +9,8 @@ This includes all (but is not limited to) the following prerequisites:
 - Tomcat app server installed
 - Maven installed
 
-[!TIP]
-All this can be installed without admin rights, even on Windows; just look for "portable install".
+> [!TIP]
+> All this can be installed without admin rights, even on Windows; just look for "portable install".
 
 ## Few takeways
 - All the "black magic" I've seen done by Eclipse is here a bit less obsfucated : it is maven and its pom.xml file that orchestrates everything. Just take a look if needed !
@@ -18,5 +18,5 @@ All this can be installed without admin rights, even on Windows; just look for "
 - /!\ Beware of the subtleties between .INCLUDE vs .FORWARD
 - /!\ Beware of redefining the default Servlet ( <url-pattern>/</url-pattern> ) : it can be called on unanticipated actions, espacially on including basic static ressources...
 
-[!WARNING]
-This is not, in any case, a demonstration of a good practice :-) Keep this in mind, just the absolute bare minimum to get going. 
+> [!WARNING]
+> This is not, in any case, a demonstration of a good practice :-) Keep this in mind, just the absolute bare minimum to get going. 
