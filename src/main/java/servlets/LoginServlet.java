@@ -15,7 +15,6 @@ import javax.servlet.http.HttpSession;
 public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
-		// PrintWriter out = response.getWriter();
 		request.getRequestDispatcher("links.html").include(request, response);
 		request.getRequestDispatcher("login.html").include(request, response);
 	}
