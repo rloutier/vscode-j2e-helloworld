@@ -24,5 +24,5 @@ Check this [youtube.link](https://www.youtube.com/watch?v=RiPot1ne8rI&ab_channel
 - /!\ Beware of redefining the default Servlet ( <url-pattern>/</url-pattern> ) : it can be called on surprising cases, espacially when including basic static ressources...
 
 > [!WARNING]
-> This is not, in any case, a demonstration of a good practice :-)
+> This is not, in any case, a demonstration of good practices :-)
 > Keep this in mind, just the absolute bare minimum to get going.
